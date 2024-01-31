@@ -54,15 +54,47 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.card {
-  padding: 2em;
+#app {
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  text-align: center;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.fun-home {
+  width: 100%;
+  height: 100%;
+}
+
+.fun-header {
+  top: 0;
+  height: 56px;
+  display: flex;
+  align-items: start;
+  color: #1a1a1a;
+  background-color: white;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dcdfe6;
+  box-shadow: 0 4px 6px #00163c05, 0 2px 4px #00163c05, 0 1px 2px #00003c03;
+}
+
+.fun-side {
+  width: 240px;
+  background-color: white;
+  .fun-menu {
+    height: 100%;
+  }
+}
+
+.fun-content {
+  padding: 0 0;
+  color: black;
+  background-color: white;
 }
 
 @media (prefers-color-scheme: light) {
