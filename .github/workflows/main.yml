@@ -38,4 +38,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
